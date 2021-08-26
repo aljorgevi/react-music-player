@@ -1,5 +1,13 @@
+import Player from './components/Player';
+import Song from './components/Song';
+
 function App() {
-  return <h1>Hello world</h1>;
+  return (
+    <div className='App'>
+      <Song />
+      <Player />
+    </div>
+  );
 }
 
 export default App;
