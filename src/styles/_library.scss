@@ -25,7 +25,7 @@
     width: 30%;
   }
   &:hover {
-    background: rgb(185, 191, 218);
+    background: $primary-300;
   }
 }
 
@@ -59,7 +59,7 @@
 }
 
 .selected {
-  background: rgb(230, 194, 230);
+  background: $primary-600;
 }
 
 .active-library {
